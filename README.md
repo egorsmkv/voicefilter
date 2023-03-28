@@ -1,4 +1,4 @@
-# VoiceSplit
+# VoiceFilter/VoiceSplit
 
 ## Install
 

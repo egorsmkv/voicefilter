@@ -161,7 +161,6 @@ c = load_config('config.json')
 
 ap = AudioProcessor(c.audio) # create AudioProcessor for model
 c.model_name = 'voicefilter'
-model_name = c.model_name
 
 # load model
 model = VoiceFilter(c)

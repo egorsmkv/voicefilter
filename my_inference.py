@@ -10,6 +10,8 @@ from utils.generic_utils import load_config
 
 # config
 USE_CUDA = False
+if torch.cuda.is_available():
+  USE_CUDA = True
 
 # speaker_encoder parameters 
 num_mels = 40
